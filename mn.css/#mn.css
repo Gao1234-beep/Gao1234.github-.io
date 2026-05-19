@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Microsoft YaHei", sans-serif;
+}
+
+body {
+  background: #f4f4f4;
+  padding: 30px 0;
+}
+
+/* 简历整体 */
+.resume {
+  width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 40px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 标题 */
+.resume-name {
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* 每个模块带边框 */
+.section {
+  border: 1px solid #666;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+/* 模块小标题 */
+.title {
+  font-size: 18px;
+  color: #222;
+  border-bottom: 1px solid #999;
+  padding-bottom: 8px;
+  margin-bottom: 15px;
+}
+
+/* 基本信息布局 */
+.base-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px 20px;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* 内容区域 */
+.content {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #333;
+  min-height: 60px;
+}
